@@ -17,7 +17,7 @@ if ($_GET['cachebuster']) {
 	<link rel="stylesheet" href="http://jeroenvdb.be/check-resource-origin/style.css<?php echo $cachebusterString ?>" class="fjs-resource" data-logger=".logger-css-1">
 </head>
 <body>
-	<a href="<?php echo $currentUrl ?>">Soft refresh this page (like navigating forward forward or forward backward)</a> -
+	<a href="http://jeroenvdb.be/check-resource-origin/another-random-page.php<?php echo $cachebusterString ?>">Soft refresh this page (like navigating forward forward or forward backward)</a> -
 	<a href="<?php echo $newCachebusterUrl ?>">Soft refresh with new image (I use cachebuster for now)</a> -
 	<a href="https://github.com/JeroenVdb/client-cache-heuristics">Github</a>
 	<hr/>
